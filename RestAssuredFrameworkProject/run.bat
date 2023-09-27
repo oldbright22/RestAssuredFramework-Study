@@ -1,0 +1,1 @@
+mvn clean test -DtestCategory=REGRESSION & allure generate allure-results -c -o allure-report && allure open allure-report
